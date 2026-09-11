@@ -1,0 +1,56 @@
+		case DRM_FORMAT_ARGB1555:
+		case DRM_FORMAT_XRGB1555:
+			bitmap.mask[0] = 0x00007C00;
+			bitmap.mask[1] = 0x000003E0;
+			bitmap.mask[2] = 0x0000001F;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_ABGR1555:
+		case DRM_FORMAT_XBGR1555:
+			bitmap.mask[0] = 0x0000001F;
+			bitmap.mask[1] = 0x000003E0;
+			bitmap.mask[2] = 0x00007C00;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_RGBA5551:
+		case DRM_FORMAT_RGBX5551:
+			bitmap.mask[0] = 0x0000F800;
+			bitmap.mask[1] = 0x000007C0;
+			bitmap.mask[2] = 0x0000003E;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_BGRA5551:
+		case DRM_FORMAT_BGRX5551:
+			bitmap.mask[0] = 0x0000003E;
+			bitmap.mask[1] = 0x000007C0;
+			bitmap.mask[2] = 0x0000F800;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_ARGB4444:
+		case DRM_FORMAT_XRGB4444:
+			bitmap.mask[0] = 0x00000F00;
+			bitmap.mask[1] = 0x000000F0;
+			bitmap.mask[2] = 0x0000000F;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_ABGR4444:
+		case DRM_FORMAT_XBGR4444:
+			bitmap.mask[0] = 0x0000000F;
+			bitmap.mask[1] = 0x000000F0;
+			bitmap.mask[2] = 0x00000F00;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_RGBA4444:
+		case DRM_FORMAT_RGBX4444:
+			bitmap.mask[0] = 0x0000F000;
+			bitmap.mask[1] = 0x00000F00;
+			bitmap.mask[2] = 0x000000F0;
+			bitCount = 16;
+			break;
+		case DRM_FORMAT_BGRA4444:
+		case DRM_FORMAT_BGRX4444:
+			bitmap.mask[0] = 0x000000F0;
+			bitmap.mask[1] = 0x00000F00;
+			bitmap.mask[2] = 0x0000F000;
+			bitCount = 16;
+			break;
