@@ -1,0 +1,1 @@
+savedcmd_/orange/DPUSWOrange01/home/chaoyan/drm/driver/Module.symvers :=  scripts/mod/modpost -M -m -a     -W -o /orange/DPUSWOrange01/home/chaoyan/drm/driver/Module.symvers -T /orange/DPUSWOrange01/home/chaoyan/drm/driver/modules.order -i Module.symvers -e 
