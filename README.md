@@ -6,3 +6,6 @@ https://claude.ai/magic-link#89e02904bc3797fec23270064aac1e44:amluZ2xhaS5jYW9Adm
 
 
 https://claude.ai/magic-link#2b066adc86bd4e79892b4997cbf5546f:amluZ2xhaS5jYW9AdmVyaXNpbGljb24uY29t
+
+http://192.168.32.109:8080/job/DPU_DRM_Check_All_By_Gitlab/20/
+http://192.168.32.109:8080/job/DPU_DRM_Check_All_By_Gitlab/24/
