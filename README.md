@@ -9,3 +9,16 @@ https://claude.ai/magic-link#2b066adc86bd4e79892b4997cbf5546f:amluZ2xhaS5jYW9Adm
 
 http://192.168.32.109:8080/job/DPU_DRM_Check_All_By_Gitlab/20/
 http://192.168.32.109:8080/job/DPU_DRM_Check_All_By_Gitlab/24/
+
+{
+      "env": {
+      "ANTHROPIC_AUTH_TOKEN": "YOUR_API_KEY",
+      "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+      "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-5.3-flash[1m]",
+      "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.3[1m]",
+      "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.3[1m]",
+      "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "1000000",
+      "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+      "API_TIMEOUT_MS": "3000000"
+  }
+}
